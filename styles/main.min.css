@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+.grid-container{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto auto;
+	grid-gap: 0px;
+	background-color: black;
+	padding: 0px;
+	
+}
+.grid-container > div{
+	padding: 10px;
+	margin: 10px;
+	background-color: black;
+	color: white;
+	text-transform: uppercase;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 85%;
+	font-weight: 550
+}
+.grid-container > div2{
+	padding: 10px;
+	margin: 10px;
+	background-color: black;
+	color: white;
+	text-transform: uppercase;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 75%;
+	text-align: right;
+}
+a {
+	color: white
+}
+section {
+	float: left;
+	padding-left: 110px;
+	padding-top: 88px;
+    text-align: center;
+    width: 350px;
+	height: 300px;
+}
+h1{
+	color: goldenrod;
+	font-size: 27px;
+	line-height: 0.3;
+	font-family: banana,sans-serif;
+	font-weight: 400;
+	font-style: oblique;
+}
+h2{
+	font-size: 39px;
+	text-transform: uppercase;
+	line-height: 0;
+	font-family: interstate,sans-serif;
+	font-weight: 700;
+	font-style: bold; 
+}
+p { 
+	font-size: 123%;
+	color: gray;
+	font-family: co-text,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+  }
+
+
+.link{
+	color:goldenrod;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-family: interstate,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+figure{
+	float: none;
+}
+figure2{
+	float: right;
+	padding-top: 50px;
+	padding-right: 50px;
+}
